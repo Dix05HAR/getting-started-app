@@ -1,0 +1,6 @@
+services:
+  gettingstartedapp:
+    image: gettingstartedapp
+    build:
+      context: .
+      dockerfile: ./Dockerfile
